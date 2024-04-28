@@ -1,0 +1,65 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Basic Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Logos */
+.logo {
+    width: auto;
+    height: 160px;
+}
+
+.logoWifi {
+    width: auto;
+    height: 120px;
+}
+
+/* Container Styling */
+.containerInfo {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 100%;
+    padding: 2%;
+}
+
+/* Typography */
+h3 {
+    font-size: 3rem;  /* Consider adjusting for responsiveness */
+}
+
+h2 {
+    font-size: 2rem;  /* Consider adjusting for responsiveness */
+}
+
+.ticket {
+    font-size: 8em;  /* This might need media queries for smaller screens */
+}
+
+/* Buttons */
+.btnTurno {
+    width: 20%;
+    height: 50px;
+    font-size: 1.7rem;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #424bae, #009f58);
+    box-shadow: 0px 4px 5px rgba(125, 235, 215);
+    border: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* QR Code Generator Styling */
+.qrGenerator {
+    max-width: 25%; /* Ensure QR code doesn't exceed its container */
+}
+
+
